@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Web Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>This Is<span>Reguri Revathi</span></h1>
+    <p>Studying BTech in 3rd Year in |St Martins Engineering College</p>
+
+    <h2>About Me</h2>
+    <p>I am an enthusiastic and goal-driven B.Tech Computer Science and Engineering student at St. Martin's Engineering College (SMEC), with a
+strong interest in Python programming and web development. I am currently looking for internship opportunities where I can apply my knowledge, gain
+practical experience, and contribute to impactful projects. I am eager to learn from experienced professionals, grow my technical abilities, and be part of
+a forward-thinking team..</p>
+
+    <img src="E:\PROJECTS\R\New Portfolio\profile pic.jpg" alt="Reguri Revathi">
+
+    <button onclick="showAlert()">Click Me</button>
+  </div>
+
+  <script>
+    function showAlert() {
+      alert("Button was clicked!");
+    }
+  </script>
+</body>
+</html>
